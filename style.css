@@ -1,0 +1,37 @@
+html{
+	height:100%;
+
+	font-family: 'VT323', monospace;
+	font-size:20px;
+}
+
+section {
+	width: 1300px;
+	margin: auto;
+}
+
+canvas {
+	width: 700px;
+	height: 522px;
+
+	border: 1px solid black;
+}
+
+.alert {
+	color:red;
+}
+
+.boxCommands {
+	width: 530px;
+	padding: 20px;
+
+	float: right;
+	border: 1px solid black;
+
+	text-align: justify;
+}
+
+.credit {
+	width: 400px;
+	margin-top:35px;
+}

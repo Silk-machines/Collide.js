@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Collide.js</title>
+		<link rel="stylesheet" href="style.css"/>
+
+		<link rel="icon" href="../ellium/assets/pictures/logo.png" />
+	</head>
+
+	<body>
+
+		<section>
+			<div class = "boxCommands">
+				<h1>Information :</h1>
+					<ul>
+						<li> <span class="alert">This demo requires a navigator that support ECMAScript10 to run properly.</span> </li>
+						<li>Position : <span id="position">test</span> </li>
+						<li>Type of Collision : <span id="collisionType"></span> </li>
+					</ul>
+				<h1>Commands :</h1>
+					<ul>
+						<li> <input type="checkbox" id="platformerDemo" checked="checked" /> Enable the platformer demo </li>
+						<li> <input type="range" min="-3" max="-1" step="1" id="inertia" value="-1"/> Manage the inertia (platformer demo only) </li>
+						<li> <input type="submit" value="reload the demo with theses new values" id="reload"/> </li>
+					</ul>
+
+					<a href="scripts/Collide.js" target="blank">Download Collide.js</a></br>
+					<a href="">Download the demo</a>
+
+					<div class="credit">Created by <a href="http://escape.ellium.free.fr">Ellium</a></span>
+			</div>
+		</section>
+
+		<!-- library script -->
+		<script src="scripts/Collide.js"></script>
+		<!--data-->
+		<script src="scripts/demo/data.js"></script>
+		<!-- demo scripts -->
+		<script src="scripts/demo/Game.js"></script>
+		<script src="scripts/demo/Player.js"></script>
+		<script src="scripts/demo/Demo.js"></script>
+		<script src="scripts/demo/main.js"></script>
+	</body>
+
+</html>
